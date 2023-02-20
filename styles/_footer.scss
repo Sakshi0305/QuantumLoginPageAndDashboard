@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: #fff;
+  position: relative;
+  bottom: 0;
+  img {
+    padding: 0 20px;
+  }
+  p {
+    padding: 0 4px;
+    color: #616161;
+    margin: auto 10px;
+  }
+  .copyright {
+    border-left: 1px solid #0000001f;
+  }
+  .company {
+    font-weight: bold;
+  }
+}

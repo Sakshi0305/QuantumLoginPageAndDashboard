@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACR,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,iFAAiF;;;AAExF,UAAU;EACR,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,8EAA8E;EACnF,WAAW,EAAE,IAAI;;;AAEnB,UAAU;EACR,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,kFAAkF;EACvF,WAAW,EAAE,GAAG;;;AAGlB,UAAU;EACR,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,0EAA0E;EAC/E,WAAW,EAAE,GAAG",
+    "sources": [
+        "varible.scss"
+    ],
+    "names": [],
+    "file": "varible.css"
+}

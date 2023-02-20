@@ -1,0 +1,222 @@
+@font-face {
+    font-family: Quicksand;
+    src: url("quantum screen assets\\Quicksand font 1\\static\\Quicksand-Regular.ttf");
+}
+@font-face {
+    font-family: Quicksand;
+    src: url("quantum screen assets\\Quicksand font 1\\static\\Quicksand-Bold.ttf");
+    font-weight: bold;    
+}
+@font-face {
+    font-family: Quicksand;
+    src: url("quantum screen assets\\Quicksand font 1\\static\\Quicksand-SemiBold.ttf");
+    font-weight: semibold;    
+}
+body{
+    margin: 0;
+    font-family: Quicksand,Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: #EEEEEE;
+
+}
+p{
+    color: #666666;
+    font-size: 12px;
+    margin: 0;
+    margin-right: 10px;
+
+
+
+}
+
+
+.navbar{
+    background: url('header\ pattern\ image.png');
+    border-bottom: solid 2px #31B9E4 ;
+}
+nav .notifications{
+    margin-left: auto;
+    /* margin-right: 10px; */
+}
+nav .notifications div img{
+    width: 21px;
+}
+nav .notifications div span{
+    font-size: 12px ;
+    position: relative;
+    right: 18px;
+    top: -10px;
+}
+
+.navbar-toggler,.navbar-toggler:focus{
+    border: none;
+}
+.navbar-toggler-icon{
+    color: #1F7A54;
+    background:url("icons/hamburger-menu.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    border: none;
+}
+
+.navbar-nav .nav-item .nav-link{
+    /* background: red;  */
+    letter-spacing: 0px;
+color: #3FD28B;
+padding: 10px;
+text-transform: uppercase;
+font-size: 14px;
+padding: 19px 32px ;
+}
+.navbar-nav .nav-item.active .nav-link{
+    /* background: red;  */
+    letter-spacing: 0px;
+color: #fff;
+border-bottom: 4px solid #fff;
+}
+.container-title{
+    background: #8DDC97 ;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.container-title .title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    /* padding: 38px  20px; */
+
+}
+.container-title .title.active{
+    border-bottom: 4px solid #000000;
+
+}
+.container-title .title img{
+    width: 24px;
+}
+.container-title .title span{
+    font-size: 24px;
+    margin: 0 8px;
+}.container-title .title  h2{
+    font-size: 16px;
+    margin: 0;
+}
+.sceondary-title{
+    border-bottom: 1px solid #00000021;
+    padding-bottom: 10px;
+
+}
+.sceondary-title .dropdown .filter-label{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.card{
+    border-radius: 0;
+    width: 36rem;
+}
+.favourite{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    width: 20px;
+    height: 24px;
+    background: url(icons/favourite.svg);
+}
+.unfavourite{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    width: 20px;
+    height: 24px;
+    background: url(icons/unfavourite.svg);
+}
+.expired{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 52px;
+    text-align: center;
+    font-size: 10px;
+    background: #FFE4E6;
+    color:#D80000;
+}
+.card img{
+    border-radius: 2px;
+}
+.card-body{
+    width: 90%;
+    text-align: left;
+}
+.card-title{
+    font-size: 16px;
+    font-weight: semibold;
+}
+.content>p+p{
+        border-left:solid 1px #aaa;
+        padding-left: 10px;
+}
+.content .additional{
+    color: #1F7A54;
+}
+.info{
+    margin-right: 6px;
+    margin-bottom: 8px;
+}
+.info span{
+    font-weight: semibold;
+    color: #000000;
+}
+.dropdown button{
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #00000021;
+    width: 100%;
+    text-align: left;
+    padding: 2px 0;
+    margin: 8px 0;
+    background: none;
+}
+
+.dropdown button:hover{
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    text-align: left;
+    padding: 2px 0;
+    margin: 8px 0;
+    background: none;
+}
+.card-footer{
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+.card-footer .image-muted{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+
+.tabs{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.tabs a{
+    color: #1F7A54;
+    font: normal normal medium 14px/18px Quicksand;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.tabs>a+a {
+    border-left: 1px solid #0000001F;
+
+}

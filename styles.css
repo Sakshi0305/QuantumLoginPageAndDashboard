@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Quicksand;
+  src: url("quantum screen assets\\Quicksand font 1\\static\\Quicksand-Regular.ttf");
+}
+@font-face {
+  font-family: Quicksand;
+  src: url("quantum screen assets\\Quicksand font 1\\static\\Quicksand-Bold.ttf");
+  font-weight: bold;
+}
+body {
+  margin: 0;
+  font-family: Quicksand, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.navbar {
+  background-image: url("header pattern svg.svg");
+}
+.navbar .logo {
+  padding: 10px;
+}
+.container {
+  background-color: #eeeeee;
+  height: 120%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.container .card {
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 10px #00000017;
+  border-radius: 5px;
+  border-top: 5px solid #6ad3ee;
+  padding: 40px;
+  width: 488px;
+  margin-top: 30px;
+}
+.container .card .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .card .heading h2 {
+  margin: auto;
+}
+.container .card .card-form {
+  display: flex;
+  flex-direction: column;
+}
+.radio-input-set {
+  display: flex;
+  font-size: 16px;
+  margin: 34px 0 25px 0;
+}
+
+.radio-input-set .radio-input {
+  margin-right: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.radio-input-set .radio-input .radio-button {
+  display: none;
+}
+.radio-input-set .radio-input label {
+  padding: 0 10px;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+input,
+select {
+  color: black;
+  border: none;
+  border-bottom: 1px solid #00000022;
+  font-size: 16px;
+}
+input,
+select:focus {
+  outline: none;
+}
+.container .card .card-form select {
+  margin-bottom: 56px;
+}
+
+.label-dropdown {
+  font-size: 12px;
+  margin: 5px 0px;
+  color: #aaaaaa;
+}
+.password-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #0000001f;
+}
+.password-input input {
+  border: none;
+}
+.password-input img {
+  align-self: flex-end;
+  padding: 0 10px;
+}
+.forget-link {
+  color: #1f7a54;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  margin-bottom: 33px;
+  text-align: end;
+  align-self: flex-end;
+}
+.rememberme-container {
+  display: flex;
+  align-items: center;
+}
+.rememberme-container input {
+  display: none;
+}
+.rememberme {
+  font-size: 16px;
+}
+.submit-button {
+  background-color: #3fd28b;
+  padding: 10px;
+  display: block;
+  width: 50%;
+  margin: 34px auto 10px auto;
+  box-shadow: 0px 3px 5px #0000003d;
+}
+
+.tabs {
+  margin: 30px;
+}
+.tabs a {
+  color: #1f7a54;
+  font: normal normal medium 14px/18px Quicksand;
+  padding: 0 10px;
+}
+.tabs > a + a {
+  border-left: 1px solid #0000001f;
+}
